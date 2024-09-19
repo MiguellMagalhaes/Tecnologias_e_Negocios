@@ -1,0 +1,46 @@
+areas
+    - id: primary key int auto increment
+    - name: string not null
+    - status: boolean not null
+
+companies
+    - id: primary key int auto increment
+    - name: string not null
+    - status: boolean not null
+
+favorites
+    - id_schedule: foreign key int references schedules(id)
+    - id_user: foreign key int references user(id)
+
+news
+    - id: primary key int auto increment
+    - title: string not null
+    - overview: string not null
+    - report: text not null
+    - img: string not null
+    - date: datetime not null
+    - status: boolean not null
+
+schedules
+    - id: primary key int auto increment
+    - id_area: foreign key int references areas(id)
+    - id_transportation: foreign key int references transportation(id)
+    - id_company: foreign key int references companies(id)
+    - name: string not null
+    - keywords: string not null
+    - file: string not null
+    - status: boolean not null
+
+news
+    - id: primary key int auto increment
+    - name: string not null
+    - icon: string not null
+    - status: boolean not null
+
+news
+    - id: primary key int auto increment
+    - name: string not null
+    - email: string not null
+    - password: string not null
+    - isadmin: boolean not null
+    - status: boolean not null
