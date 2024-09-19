@@ -1,0 +1,1 @@
+Be On Time (BOT) é uma solução criada para um trabalho académico, oferecendo uma plataforma inovadora para o transporte em Portugal. BOT centraliza dados de várias empresas, facilitando a comparação de preços e horários. Com uma interface intuitiva e foco em eficiência de custos, simplifica o planeamento de viagens para os utilizadores modernos.
